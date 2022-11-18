@@ -641,12 +641,18 @@ html{
 .footer .Fright .FAbout p{
     padding: 5px;
 }
+.footer .Fright .FAbout a{
+    text-decoration: none;
+}
 .footer .Fright .FMyAccount h1{
     color: #fff;
     padding-bottom: 15px;
 }
 .footer .Fright .FMyAccount p{
     padding-top: 5px;
+}
+.footer .Fright .FMyAccount a{
+    text-decoration: none;
 }
 .footer .Fright .InstallApp h1{
     color: #fff;
