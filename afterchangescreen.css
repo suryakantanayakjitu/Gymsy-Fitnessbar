@@ -1,0 +1,864 @@
+/* ------------ Media Query ------------ */
+@media screen and (max-width: 1107px) {
+    .nav{
+        padding: 1rem 4.5rem;
+    }
+    .nav h2{
+        font-size: 1.4rem;
+    }
+    #item li{
+        padding-right: 30px;
+    }
+    #item li a{
+        font-size: 0.9rem;
+    }
+    #item .icon i {
+        padding-right: 20px;
+    }
+    #item .icon .fa-facebook{
+        padding-left: 5px;
+    }
+
+
+    .details{
+        padding:8rem;
+    }
+}
+
+
+@media screen and (max-width: 811px) {
+    .nav {
+        padding: 2rem 3rem;
+    }
+    .nav h2{
+        font-size: 1.6rem;
+    }
+    #item{
+        flex-direction: column;
+        text-align: center;
+        justify-content: flex-start;
+        padding-top: 15px;
+        width: 200px;
+        height: 54vh;
+        position: fixed;
+        top: 22px;
+        right: -300px;
+        background: rgba(0,0,0,0.8);
+        z-index: 10000000;
+        margin-top: 4.5rem;
+        transition: 0.05s;
+    }
+    #item li{
+        padding-right: 0px;
+        padding: 4px 0;;
+    }
+    #item li a{
+        font-size: 1.2rem;
+    }
+    #item .icon{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+    #bar{
+        display:initial;
+        cursor: pointer;
+    }
+    .back{
+        height: 50vh;
+        background-size: cover;
+        background-position: 50px 52px;
+    }
+    
+/* Change mid after changing the back image */
+    .mid{
+        top: 21%;
+    }
+    .mid p{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .mid h3{
+        font-size: 2.3rem;
+    }
+    .mid .btn{
+        margin-top: 1.5rem;
+    }
+    .mid .btn a{
+        font-size: 00.9rem;
+    }
+    .mid .btn a.simple{
+        padding: 0.7rem 1.4rem;
+    }
+    .mid .btn a.border{
+        padding: 0.7rem 1.64rem;
+    }
+
+
+
+
+    .details{
+        padding: 4rem 6rem;
+    }
+    .details .one{
+        width: 50%;
+    }
+    .details .one h3, .details .two h3{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .details .one p{
+        font-size: 1.1rem;
+        padding-bottom: 2.2rem;
+    }
+    .details .one a{
+        font-size: 0.9rem;
+    }
+    .details .two{
+        padding-left: 3.5rem;
+    }
+    .details .two h5{
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    .details .two p{
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    
+
+
+/* =================ABOUT Layout=========== */
+
+
+
+
+
+    .trainer{
+        padding: 4rem 6rem;
+    }
+    .trainer .about{
+        width: 45%;
+    }
+    .trainer .about h2{
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
+    }
+    .trainer .about p{
+        font-size: 0.9rem;
+    }
+    .trainer .people .team1{
+        width: 48%;
+    }
+    .trainer .people .team1 .teamDetails {
+        padding-bottom: 5px;
+    }
+    .trainer .people .team1 .name{
+        padding: 5px 10px 0 10px;
+    }
+    .trainer .people .team1 .pro{
+        padding: 2px 10px 5px 10px;
+    }
+    .trainer .people .team1 .name h4{
+        font-size: 1.1rem;
+    }
+    .trainer .people .team1 .name i,.trainer .people .team1 .pro i{
+        font-size: 1.1rem;
+    }
+    .trainer .people .team2{
+        width: 48%;
+    }
+    .trainer .people .team2 .teamDetails {
+        padding-bottom: 5px;
+    }
+    .trainer .people .team2 .name{
+        padding: 5px 10px 0 10px;
+    }
+    .trainer .people .team2 .pro{
+        padding: 2px 10px 5px 10px;
+    }
+    .trainer .people .team2 .name h4{
+        font-size: 1.1rem;
+    }
+    .trainer .people .team2 .name i,.trainer .people .team2 .pro i{
+        font-size: 1.1rem;
+    }
+
+
+    /* ============= Classses ============= */
+
+
+
+    .classes{
+        padding: 4rem 5rem;
+    }
+    .classes .para{
+        font-size: 1.1rem;
+        padding-bottom: 4px;
+    }
+    .classes .h2{
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+
+    .classes .types .yoga img{
+        height: auto;
+    }
+    .classes .types .yoga .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .yoga .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .yoga .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .yoga .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .yoga .top .top_right h4{
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .yoga .bottom{
+        padding: 15px 15px 10px 15px;
+    }
+    .classes .types .yoga .bottom p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .classes .types .areobic img{
+        height: auto;
+    }
+    .classes .types .areobic .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .areobic .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .areobic .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .areobic .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .areobic .top .top_right h4{
+        font-size: 0..8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .areobic .bottom{
+        padding: 15px 15px 10px 15px;
+    }
+    .classes .types .areobic .bottom p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .classes .types .cardio img{
+        height: auto;
+    }
+    .classes .types .cardio .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .cardio .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .cardio .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .cardio .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .cardio .top .top_right h4{
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .cardio .bottom{
+        padding: 15px 15px 10px 15px;
+    }
+    .classes .types .cardio .bottom p{
+        font-size: 0.9rem;
+    }
+
+
+
+    /* =============Contact Layout========== */
+
+
+
+    .contact{
+        padding: 4rem 6rem;
+    }
+    .contact .form h2{
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+    .contact .form .fill input, .contact .form .fill textarea{
+        padding: 12px;
+        margin: 10px 0;
+    }
+
+    .contact .form .fill input::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .fill textarea::placeholder{
+        font-size: 1rem;
+    }
+    .contact .form .fill a{
+        padding: 13px 0;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    .contact .map h2{
+        font-size: 2rem;
+        padding-bottom: 7px;
+    }
+    .contact .map P{
+        font-size: 1rem;
+        padding-bottom: 20px;
+    }
+    .contact .map iframe{
+        height: 65%;
+    }
+    
+
+/* ================Footer Layout=========== */
+
+
+    .footer{
+        padding: 4rem 4rem;
+    }
+    .footer .Fleft{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer .Fleft h1{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+        padding-bottom: 1s0px;
+    }
+    .footer .Fleft h3,h4{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 0.9rem;
+    }
+    .footer .Fright{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer .Fright .FAbout{
+        width: 30%;
+    }
+    .footer .Fright .FAbout h1{
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 1.4rem;
+    }
+    .footer .Fright .FAbout p{
+        padding: 5px;
+    }
+    .footer .Fright .FMyAccount{
+        width: 30%;
+    }
+    .footer .Fright .FMyAccount h1{
+        color: #fff;
+        font-size: 1.4rem;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .FMyAccount p{
+        padding: 5px;
+    }
+    .footer .Fright .InstallApp{
+        width: 40%;
+    }
+    .footer .Fright .InstallApp h1{
+        color: #fff;
+        font-size: 1.4rem;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .InstallApp p{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .InstallApp .Fimg{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+        width: 70%;
+    }
+    .footer .Fright .InstallApp .Fimg img{
+        border-radius: 5px;
+    }
+    .footer .Fright .InstallApp .Fimg .img1{
+        margin-bottom: 5px;
+    }
+    .footer .Fright .InstallApp .Fimg .img2{
+        margin-bottom: 8px;
+    }
+
+}
+
+
+@media screen and (max-width: 415px) {
+    .nav {
+        padding: 1rem 2rem;
+    }
+    .nav h2{
+        font-size: 1.2rem;
+    }
+    #item{
+        width: 145px;
+        height: 70vh;
+        margin-top: 2rem;
+        padding-top: 10px;
+        justify-content: flex-start;
+    }
+    #item li{
+        padding: 2.5px 0;;
+    }
+    #item li a{
+        font-size: 1rem;
+    }
+    #item .icon{
+        padding-top: 15px;
+    }
+    #bar{
+        font-size: 1.4rem;
+    }
+
+
+
+    .back{
+        height: 50vh;
+        background-size: cover;
+        background-position: 2px 45px;
+    }
+    .back .overlay {
+        background: #171819;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+      }
+/* Change mid after changing the back image */
+    .mid{
+        top: 18%;
+    }
+    .mid p{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    .mid h3{
+        font-size: 1.15rem;
+    }
+    .mid .btn{
+        margin-top: 0.2rem;
+    }
+    .mid .btn a{
+        font-size: 0.7rem;
+    }
+    .mid .btn a.simple{
+        padding: 0.5rem 0.55rem;
+    }
+    .mid .btn a.border{
+        padding: 0.5rem 0.55rem;
+    }
+    
+
+
+    /* ============details Layout========== */
+
+
+
+    .details {
+        padding: 2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .details .one{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .details .one h3, .details .two h3{
+        font-size: 1.4rem;
+        padding-bottom: 0.8rem;
+    }
+    .details .one h6 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-bottom: 0.8rem;
+    }
+    .details .one p{
+        font-size: 0.9rem;
+        padding-bottom: 1.2rem;
+    }
+    .details .one a{
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+    .details .two{
+        margin-top: 10px;
+        width: 100%;
+        border-left: none;
+        padding-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .details .two h5{
+        font-size: 1rem;
+        padding-right: 5px;
+        margin-bottom: 0.4rem;
+    }
+    .details .two p{
+        font-size: 0.9rem;
+        padding-right: 5px;
+        margin-bottom: 0.6rem;
+    }
+    
+
+
+/* =================ABOUT Layout=========== */
+
+
+
+
+
+    .trainer{
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .trainer .about{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .trainer .about h2{
+        font-size: 1.4rem;
+        padding-bottom: 0.9rem;
+    }
+    .trainer .about p{
+        font-size: 0.8rem;
+    }
+    .trainer .people{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .trainer .people .team1{
+        width: 48%;
+    }
+    .trainer .people .team1 .teamDetails {
+        padding-bottom: 2px;
+    }
+    .trainer .people .team1 .name{
+        padding: 2px 5px 0 5px;
+    }
+    .trainer .people .team1 .pro{
+        padding: 2px 5px 2px 5px;
+    }
+    .trainer .people .team1 .name h4{
+        font-size: 0.9rem;
+    }
+    .trainer .people .team1 .pro p {
+        font-size: 0.8rem;
+    }
+    .trainer .people .team1 .name i,.trainer .people .team1 .pro i{
+        font-size: 0.8rem;
+    }
+    .trainer .people .team2{
+        width: 48%;
+    }
+    .trainer .people .team2 .teamDetails {
+        padding-bottom: 2px;
+    }
+    .trainer .people .team2 .name{
+        padding: 2px 5px 0 5px;
+    }
+    .trainer .people .team2 .pro{
+        padding: 2px 5px 2px 5px;
+    }
+    .trainer .people .team2 .name h4{
+        font-size: 0.9rem;
+    }
+    .trainer .people .team2 .pro p {
+        font-size: 0.8rem;
+    }
+    .trainer .people .team2 .name i,.trainer .people .team2 .pro i{
+        font-size: 0.8rem;
+    }
+
+
+    /* ============= Classses ============= */
+
+
+
+    .classes{
+        padding: 2rem 2rem 2.5rem 2rem;
+    }
+    .classes .para{
+        font-size: 1rem;
+        padding-bottom: 4px;
+    }
+    .classes .h2{
+        font-size: 1.7rem;
+        padding-bottom: 25px;
+    } 
+
+    .classes .types {
+        flex-direction: column;
+    }
+
+    .classes .types .yoga {
+        max-width: 310;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .classes .types .yoga img{
+        height: auto;
+    }
+    .classes .types .yoga .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .yoga .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .yoga .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .yoga .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .yoga .top .top_right h4{
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .yoga .bottom{
+        padding: 15px 15px 30px 15px;
+    }
+    .classes .types .yoga .bottom p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .classes .types .areobic {
+        max-width: 310;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .classes .types .areobic img{
+        height: auto;
+    }
+    .classes .types .areobic .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .areobic .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .areobic .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .areobic .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .areobic .top .top_right h4{
+        font-size: 0..8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .areobic .bottom{
+        padding: 15px 15px 30px 15px;
+    }
+    .classes .types .areobic .bottom p{
+        font-size: 0.9rem;
+    }
+    
+    
+    .classes .types .cardio {
+        max-width: 310;
+        width: 100%;
+        /* margin: 0px 0px 30px 0px; */
+    }
+    .classes .types .cardio img{
+        height: auto;
+    }
+    .classes .types .cardio .top{
+        padding: 5px 15px 0 15px;
+    }
+    .classes .types .cardio .top .top_left h2{
+        font-size: 1.2rem;
+    }
+    .classes .types .cardio .top .top_left p{
+        font-size: 1rem;
+    }
+    .classes .types .cardio .top .top_left p span{
+        font-size: 1rem;
+    }
+    .classes .types .cardio .top .top_right h4{
+        font-size: 0.8rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+    }
+    .classes .types .cardio .bottom{
+        padding: 15px 15px 30px 15px;
+    }
+    .classes .types .cardio .bottom p{
+        font-size: 0.9rem;
+    }
+
+
+
+    /* =============Contact Layout========== */
+
+
+
+    .contact {
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .contact .form{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact .form h2{
+        font-size: 1.7rem;
+        padding-bottom: 7px;
+    }
+    .contact .form .fill input, .contact .form .fill textarea{
+        padding: 10px;
+        margin: 8px 0;
+    }
+
+    .contact .form .fill input::placeholder{
+        font-size: 0.9rem;
+    }
+    .contact .form .fill textarea::placeholder{
+        font-size: 0.9rem;
+    }
+    .contact .form .fill a{
+        padding: 10px 0;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+    .contact .map{
+        width: 100%;
+        padding: 10px;
+    }
+    .contact .map h2{
+        font-size: 1.7rem;
+        padding-bottom: 7px;
+    }
+    .contact .map P{
+        font-size: 0.9rem;
+        padding-bottom: 20px;
+    }
+    .contact .map iframe{
+        height: 15rem;
+    }
+    
+
+/* ================Footer Layout=========== */
+
+
+    .footer{
+        padding: 2rem 3rem;
+        flex-direction: column;
+    }
+    .footer .Fleft{
+        width: 100%;
+    }
+    .footer .Fleft h1{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 1.4rem;
+        padding-bottom: 8px;
+    }
+    .footer .Fleft h3,h4{
+        color: #fff;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 0.85rem;
+    }
+    .footer .Fright{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .footer .Fright .FAbout{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .footer .Fright .FAbout h1{
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 1.3rem;
+    }
+    .footer .Fright .FAbout p{
+        padding: 5px;
+    }
+    .footer .Fright .FMyAccount{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .footer .Fright .FMyAccount h1{
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .FMyAccount p{
+        padding: 5px;
+    }
+    .footer .Fright .InstallApp{
+        width: 100%;
+    }
+    .footer .Fright .InstallApp h1{
+        color: #fff;
+        font-size: 1.3rem;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .InstallApp p{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .footer .Fright .InstallApp .Fimg{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .footer .Fright .InstallApp .Fimg img{
+        border-radius: 5px;
+    }
+    .footer .Fright .InstallApp .Fimg .img1{
+        margin-right: 5px;
+        width: 50%;
+    }
+    .footer .Fright .InstallApp .Fimg .img2{
+        margin-left: 5px;
+        width: 50%;
+    }
+
+    .footer p{
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+}
